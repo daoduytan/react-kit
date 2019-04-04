@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "@reach/router": "^1.2.1",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "^2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,6 +31,7 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "flow-bin": "^0.86.0"
+    "eslint-plugin-react-hooks": "^1.0.1",
+    "flow-bin": "^0.93.0"
   }
 }
