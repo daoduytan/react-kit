@@ -16,11 +16,13 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "no-underscore-dangle": [1, { "allow": ["_id"] }],
     "jsx-a11y/anchor-is-valid": [
       "error",
       { "components": ["Link"], "specialLink": ["to"] }
     ],
+     "camelcase": "off",
     "strict": 0
   },
   "root": true
