@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "airbnb", "prettier", "prettier/react"],
+  "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["prettier", "react", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2016,
@@ -22,7 +22,7 @@
       "error",
       { "components": ["Link"], "specialLink": ["to"] }
     ],
-     "camelcase": "off",
+    "camelcase": "off",
     "strict": 0
   },
   "root": true
